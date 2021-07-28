@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/reserviatonID"
+                android:text="예약번호"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/reservation_carModel"
+                android:text="차량모델"
+                android:textSize="15dp"
+                android:textColor="#00a7f5"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/reservation_startDt"
+                android:text="시작시간"
+                android:textSize="15dp"
+                android:textColor="#f92a3f"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/reservation_endDt"
+                android:text="끝나는시간"
+                android:textSize="15dp"
+                android:textColor="#00a7f5"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
